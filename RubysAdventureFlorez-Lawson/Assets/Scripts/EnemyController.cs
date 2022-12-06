@@ -81,7 +81,6 @@ public class EnemyController : MonoBehaviour
     public void Fix()
     {
         broken = false;
-        //optional if you added the fixed animation
         animator.SetTrigger("Fixed");
     }
 }
